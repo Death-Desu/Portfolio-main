@@ -11,6 +11,7 @@ import ProjectGrid from './Components/normal/ProjectGrid';
 import Details from './Components/normal/Details';
 import Contact from './Components/normal/Contact';
 import CIFTResearch from './Components/normal/CIFTResearch';
+import Research from './Components/normal/Research';
 
 // Store Mode
 import Marketplace from './Components/Marketplace';
@@ -40,6 +41,7 @@ function App() {
               </>
             } />
             <Route path="/store" element={<Marketplace />} />
+            <Route path="/research" element={<Research />} />
             <Route path="/CIFT" element={<CIFTResearch />} />
           </Routes>
         </AnimatePresence>
